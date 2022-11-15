@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* A4 */
+    /* width: 1122.5204px;
+    height: 793.7013px; */
+
+    /* A3 */
+    width: 1587.4026px;
+    height: 1122.5204px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre {
+    position: relative;
+    border: 0.0047244100440202rem solid black;
+   
+    /* margin-top: 37.7953px;
+    margin-bottom: 37.7953px;
+    margin-right: 37.7953px;
+    margin-left: 37.7953px; */
+
+    /* A4 */
+    /* width: 1046.9298px;
+    height: 718.1107px; */
+
+    /* A3 */
+    /* Modifié le 15/11/2022 */
+    /* width: 1511.812px;
+    height: 1046.9298px; */
+    width: 1538.0826px;
+    height: 1073.2004px;
+}
+
+.cartouche {
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 604.7248px;
+    height: 151.1812px;
+    border-left: 0.047244100440202rem solid black;
+    border-top: 0.0047244100440202rem solid black;
+}
+
+.ligne1 {
+    position: absolute;
+    top: 37.7953px;
+    width: 604.7248px;
+    border-top: 0.0047244100440202rem solid black;
+}
+    
+.cadre-gauche {
+    position: absolute;
+    top: 2.3622050220101rem;
+    height: 7.0866150660302rem;
+    width: 9.4488200880403rem;
+    border-right: 0.0047244100440202rem solid black
+}
+
+.ligne3-gauche {
+    width: 9.4488200880403rem;
+    border-top: 0.0047244100440202rem solid black;
+    margin-top: 37.7953px;
+}
+
+.ligne4-gauche {
+    width: 9.4488200880403rem;
+    border-top: 0.0047244100440202rem solid black;
+    margin-top: 37.7953px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3622050220101rem;
+}
+
+.cadre-droit {
+    position: absolute;
+    top: 2.3622050220101rem;
+    right: 0;
+    height: 7.0866150660302rem;
+    width: 9.4488200880403rem;
+    border-left: 0.0047244100440202rem solid black
+}
+
+.ligne2-droit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3622050220101rem;
+}
+
+.ligne3-droit {
+    width: 9.4488200880403rem;
+    border-top: 0.0047244100440202rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3622050220101rem;
+}
+
+.ligne4-droit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3622050220101rem;
+    width: 9.4488200880403rem;
+    border-top: 0.0047244100440202rem solid black;
+    margin-bottom: 2.3622050220101rem;
+}
+
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+img {
+    width: 60px;
+    object-fit: cover;
+}
+
